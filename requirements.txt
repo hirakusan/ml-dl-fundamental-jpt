@@ -1,0 +1,56 @@
+# === Core ML/DL Libraries === 
+numpy==1.24.4
+pandas==2.1.4
+scikit-learn==1.3.2
+scipy==1.11.4
+joblib==1.3.2
+
+# === Deep Learning Frameworks ===
+tensorflow==2.13.0              
+torch==2.1.2+cpu                # ✅ Gunakan +cpu jika tanpa CUDA
+torchvision==0.16.1+cpu
+torchaudio==2.1.2+cpu
+
+# === Hugging Face Ecosystem ===
+transformers==4.39.3            # ✅ Aman untuk SmolLM
+datasets==2.19.0
+tokenizers==0.15.2
+accelerate==0.29.2
+
+# === Natural Language Processing ===
+nltk==3.8.1
+spacy==3.7.4
+
+# === Computer Vision ===
+opencv-python==4.9.0.80
+Pillow==10.3.0
+
+# === Visualization ===
+matplotlib==3.8.4
+seaborn==0.13.2
+plotly==5.22.0
+
+# === Jupyter Environment ===
+jupyterlab==4.4.4
+ipykernel==6.29.4
+ipywidgets==8.1.2
+jupyterlab_widgets==3.0.10
+jupyter_server==2.14.1
+traitlets==5.14.3
+
+# === Model Deployment & Serving ===
+fastapi==0.111.0
+uvicorn==0.29.0
+
+# === Utilities ===
+tqdm==4.66.4
+requests==2.32.3
+pyyaml==6.0.1
+
+# === Metrics and Logging ===
+wandb==0.16.6
+tensorboard==2.13.0
+
+# === Data Processing ===
+openpyxl==3.1.2
+xlrd==2.0.1
